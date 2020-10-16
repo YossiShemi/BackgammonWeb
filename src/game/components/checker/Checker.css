@@ -1,0 +1,53 @@
+.player1{
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    border: 1px #ccc solid;
+    border-radius: 50%;
+}
+
+.player2{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 1px #ccc solid;
+    border-radius: 50%;
+}
+
+.amount{
+  color:lightblue;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 5px;
+}
+
+.canMove {
+  animation-name: canMove;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes canMove {
+  0% {box-shadow: 0 0 15px 50px rgb(57, 201, 57) inset}
+  50% {box-shadow: 0px 0px 15px 50px green inset}
+  100% {box-shadow: 0 0 15px 50px rgb(57, 201, 57) inset}
+}
+
+@media (max-width: 400px){
+  .player1{
+    width: 15px;
+    height: 15px;
+}
+
+.player2{
+    width: 15px;
+    height: 15px;
+}
+
+}
+
+
+

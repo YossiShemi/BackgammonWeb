@@ -1,0 +1,31 @@
+
+
+.login{
+    align-items: center;
+    padding: 30px; 
+    text-align: center;
+    width: 22%;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 190px;
+    background-color: white;
+    box-shadow: -5px -5px 30px 5px rgb(255, 214, 80), 5px 5px 30px 5px rgb(233, 157, 147);
+    border-radius: 50px;
+    }
+
+  .loginimg{
+    width: 100px;
+    height: 100px;
+  }
+
+.notmember{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  @media (max-width: 600px) {
+    .login{
+      width:60% ;
+  }
+}
+    

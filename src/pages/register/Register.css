@@ -1,0 +1,135 @@
+
+.register-txt{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.register-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+
+
+.gifstyle{
+    width: 10%;
+    margin-top: 90px;
+    border-radius: 50%;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.register{
+    width: 20%;
+    align-items: center;
+    border: 3px #ccc solid;
+    margin-top: 5px;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    color: rgb(143, 142, 142);
+}
+
+.submit{
+    margin: auto;
+    margin-top: 20px;
+    width: 110px;   
+}
+
+.register-rules{
+    color: black;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.note{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.note-title{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    color: red;
+}
+
+
+
+.register-container-done{
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 200px;
+}
+.register-done{
+    width: 100%;
+    height: 100% ;
+    align-items: center;
+    margin-top: 5px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.clap{
+    width: 250px;
+    height: 250px;
+}
+
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .register-done {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+ */
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .register-txt{
+        margin-top: 10px;
+        font-size: 8px;
+   }
+    .register-container{
+        width: 85%;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        margin: auto;
+    }
+    .register{
+        width: 80%;
+    }
+
+    .gifstyle{
+        display: none;
+    }
+
+    .register-rules{
+    margin-top: 15px;
+    }
+
+  }
+
+  
+  
+

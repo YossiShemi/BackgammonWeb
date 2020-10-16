@@ -1,0 +1,40 @@
+
+
+.options{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.alert{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .options{
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .options{
+    flex-direction: column;
+  }
+  .alert{
+   height: 70px;
+  }
+}

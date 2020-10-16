@@ -1,0 +1,25 @@
+.panel-homepage{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin: none;
+    width: 800px;
+    height: 250px;
+  
+}
+
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .img{
+      width: 70%;
+    }
+  }
+  @media (max-width: 768px) {
+    .img{
+        width: 70%;
+    }
+  }
+  

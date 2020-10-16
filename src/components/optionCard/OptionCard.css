@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px 45px 50px;
+}
+
+.option{
+  background-image: url(../../images/option.png);
+  width: 450px;
+  height: 300px;
+  border: 10px #ccc solid ;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px #d9dbdf;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  }
+
+  .option:hover {
+    box-shadow: 0px 10px 50px rgb(247, 225, 197);
+    border: 10px rgba(224, 148, 7, 0.452) solid ;
+    margin: -0.5px;
+  }
+  
+  .text{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .text h1{
+    -webkit-text-fill-color: bisque; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  black;
+  }
+
+  .button{
+    margin: auto;
+    background-color: white;
+    color: burlywood;
+    width: 90px;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 2px burlywood solid;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+      
+    }
+    
+  .dice-optinCard{
+    margin-top: 17px;
+    width: 290px;
+    height: 250px;
+    margin-bottom: 0px;
+  }
+  
+  
+
+  
+/* Media Query */
+@media (max-width: 640px) {
+   .container{
+    margin: 30px 0 10px 0;
+   }
+  
+  .option{
+     width: 500px;
+     height: 350px;
+     margin-bottom: 50px;
+
+     
+   }
+
+  .text{
+    font-size: 20px;
+  }
+  .dice-optinCard{
+    width: 80%;
+    
+  }
+}
